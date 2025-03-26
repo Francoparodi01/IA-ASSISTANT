@@ -1,0 +1,13 @@
+# requirements.txt
+SpeechRecognition
+pyttsx3
+numpy
+spacy
+tensorflow
+pymongo
+transformers
+beautifulsoup4
+python-dotenv
+datasets
+pandas
+requests

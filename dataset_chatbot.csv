@@ -1,0 +1,189 @@
+text,category
+Abrí YouTube,youtube
+Quiero ver videos en YouTube,youtube
+Poné un video de música,youtube
+Abrí la aplicación de YouTube,youtube
+Quiero ver algo en YouTube,youtube
+Buscá en Google,google
+Necesito encontrar algo en Google,google
+Abrí Google Chrome,chrome
+¿Qué temperatura hace hoy?,clima
+¿Cómo está el clima?,clima
+Dame el pronóstico del clima,clima
+Contame un chiste,chiste
+Decime algo gracioso,chiste
+Haceme reír,chiste
+¿Qué hora es?,hora
+Decime la hora actual,hora
+¿Qué día es hoy?,fecha
+Dame la fecha,fecha
+¿Quién sos?,nombre
+¿Cómo te llamás?,nombre
+Dame las noticias,noticias
+¿Qué está pasando en el mundo?,noticias
+¿Cuáles son las últimas noticias?,noticias
+Recordame esto,recordatorio
+Poné un recordatorio,recordatorio
+Agendame un evento,recordatorio
+¿Qué es inteligencia artificial?,info_general
+¿Cómo funciona el aprendizaje automático?,info_general
+¿Quién descubrió América?,info_general
+¿Qué pasó en la Segunda Guerra Mundial?,info_general
+Encendé la luz,domotica
+Apagá la luz,domotica
+Subí el volumen,volumen
+Bajá el volumen,volumen
+Abrí Spotify,spotify
+Poné música en Spotify,spotify
+Reproducí mi playlist favorita,spotify
+Abrí Netflix,netflix
+Quiero ver una película en Netflix,netflix
+Poné una serie en Netflix,netflix
+Abrí Amazon Prime Video,amazon_prime
+Encendé la televisión,domotica
+Apagá la televisión,domotica
+Subí la temperatura,domotica
+Bajá la temperatura,domotica
+¿Cómo estás?,social
+Contame algo interesante,social
+Creá una nota,productividad
+Añadí esto a mi lista de tareas,productividad
+Reproducime un video de recetas en YouTube,youtube
+Buscá tutoriales de maquillaje en YouTube,youtube
+Poné un vlog interesante en YouTube,youtube
+Abrí el canal de tu cantante favorito en YouTube,youtube
+Buscá restaurantes cercanos en Google,google
+Navegá en Google Chrome para encontrar ofertas,chrome
+Buscá en Google restaurantes en la zona,google
+¿Cuál es el pronóstico del tiempo para hoy?,clima
+Decime si va a llover esta tarde,clima
+¿Cómo va a estar el clima esta noche?,clima
+Necesito saber si se arma tormenta en la ciudad,clima
+Sacame una sonrisa con un chiste,chiste
+Mandame un chiste piola,chiste
+Decime la hora exacta por favor,hora
+¿Podés indicarme la hora che?,hora
+¿Qué hora tenés ahora?,hora
+Decime la fecha de hoy por favor,fecha
+¿Qué día figura en el calendario?,fecha
+¿Cuál es tu nombre che?,nombre
+Decime ¿quién sos vos?,nombre
+Dame las noticias más frescas,noticias
+Poneme a par con las novedades locales,noticias
+¿Qué se comenta en política?,noticias
+Infórmame sobre las novedades deportivas,noticias
+Recordame llamar a la abuela mañana,recordatorio
+Programá un recordatorio para comprar entradas,recordatorio
+Agendame una reunión para este viernes,recordatorio
+No me olvides del turno médico,recordatorio
+Explícame qué es la energía nuclear,info_general
+Contame sobre la historia de Argentina,info_general
+¿Cómo funciona el sistema solar?,info_general
+Quiero saber más sobre la economía global,info_general
+Dame datos sobre la exploración espacial,info_general
+¿Quién inventó el automóvil?,info_general
+Encendé las luces de la sala,domotica
+Apagá las luces del comedor,domotica
+Bajá la intensidad de la lámpara,domotica
+Subí el aire acondicionado dos grados,domotica
+Cerrá las cortinas del living,domotica
+Subí el volumen de la tele,volumen
+Bajá el volumen del equipo de música,volumen
+Poneme una rola de rock en Spotify,spotify
+Reproducime los éxitos de los 80 en Spotify,spotify
+Abrí mi lista de reproducción de jazz en Spotify,spotify
+Poné una peli de suspenso en Netflix,netflix
+Buscá una serie de drama en Netflix,netflix
+Reproducime un documental interesante en Netflix,netflix
+Explorá Amazon Prime Video para encontrar una serie nueva,amazon_prime
+Poné una comedia ligera en Amazon Prime Video,amazon_prime
+Decime un tutorial de guitarra en YouTube,youtube
+Abrí el último video de noticias científicas en YouTube,youtube
+Buscame en YouTube videos de recetas de cocina,youtube
+Poné un video de deportes extremos en YouTube,youtube
+Buscá en Google las mejores playas de Argentina,google
+Encontrá en Google direcciones para llegar al centro,google
+Consultá en Google por restaurantes en mi zona,google
+Buscá en Google imágenes de paisajes argentinos,google
+Abrí Chrome en modo incógnito,chrome
+Navegá por Chrome y buscá ofertas online,chrome
+¿Cómo estará el clima mañana en Buenos Aires?,clima
+Informame si habrá tormenta este fin de semana,clima
+Decime si va a hacer frío hoy,clima
+¿Qué pronóstico hay para el viernes?,clima
+Contame un chiste nuevo por favor,chiste
+Mandame un chiste para animarme,chiste
+Haceme reír con una broma fresca,chiste
+Decime si ya pasó el mediodía,hora
+¿Sabés qué hora es ahora mismo?,hora
+Decime la hora porfa,hora
+Recordame la fecha de hoy,fecha
+Indicame la fecha actual,fecha
+¿Qué día de la semana estamos?,fecha
+Decime tu nombre ¿cómo te llamás?,nombre
+Contame ¿quién sos?,nombre
+Informame de lo último en tecnología,noticias
+Dame actualizaciones sobre noticias locales,noticias
+¿Qué novedades hay en el ámbito internacional?,noticias
+Poné en mi pantalla las noticias del día,noticias
+Agendame el pago de la factura para mañana,recordatorio
+Recordame revisar el correo a las 10,recordatorio
+Programá un recordatorio para ir al médico,recordatorio
+Agendame una videollamada con la jefa,recordatorio
+Explícame en qué consiste la fotosíntesis,info_general
+Contame sobre la historia del tango,info_general
+Describime cómo se construyó la Casa Rosada,info_general
+Explicame el funcionamiento de un reactor nuclear,info_general
+Contame la historia del fútbol argentino,info_general
+Decime cómo se originó el imperio incaico,info_general
+Ajustá la iluminación de la sala,domotica
+Apagá las luces del patio,domotica
+Encendé la calefacción del living,domotica
+Poné en modo nocturno las luces de la casa,domotica
+Poné el volumen al 70%,volumen
+Decime el nivel de volumen actual,volumen
+Reproducime una lista de indie en Spotify,spotify
+Buscá en Spotify los últimos éxitos pop,spotify
+Mostrame una comedia en Netflix,netflix
+Abrí el perfil infantil en Netflix,netflix
+Elegí una película de aventura en Amazon Prime Video,amazon_prime
+Abrí YouTube y buscar Bad Bunny,youtube_search
+Busca en YouTube canciones de Shakira,youtube_search
+Quiero ver videos de Queen en YouTube,youtube_search
+Abrí YouTube y buscá a Luis Alberto Spinetta,youtube_search
+Buscá en YouTube videos de Charly García,youtube_search
+Quiero ver en YouTube actuaciones de Fito Páez,youtube_search
+Abrí YouTube y buscá canciones de Los Redondos,youtube_search
+Buscá en YouTube el último video de Babasónicos,youtube_search
+Abrí YouTube y mostrame videos de tango,youtube_search
+Quiero ver videos de rock argentino en YouTube,youtube_search
+Agregá un recordatorio para la reunión mañana a las 3PM,agregar_recordatorio
+Poné un recordatorio para llamar a mamá a las 7PM,agregar_recordatorio
+Recordame hacer ejercicio a las 6am,agregar_recordatorio
+Agendá un recordatorio para la medicación a las 8 de la noche,agregar_recordatorio
+Configurá un recordatorio para pagar la factura el viernes,agregar_recordatorio
+Sumate un recordatorio para comprar leche mañana,agregar_recordatorio
+Agregá un recordatorio para asistir al partido el sábado,agregar_recordatorio
+Recordame revisar el correo a las 10,agregar_recordatorio
+Agendame un recordatorio para la cita del dentista,agregar_recordatorio
+Poné un recordatorio para enviar el informe a las 5PM,agregar_recordatorio
+Agendá un recordatorio para la videollamada con el jefe,agregar_recordatorio
+Recordá que tenés reunión mañana a las 9AM,agregar_recordatorio
+Poné un recordatorio para estudiar para el examen mañana,agregar_recordatorio
+Agregá un recordatorio para recoger el auto el sábado,agregar_recordatorio
+Recordame hacer la llamada a la abuela a las 3PM,agregar_recordatorio
+Eliminá el recordatorio de comprar pan,eliminar_recordatorio
+Borrá el recordatorio para la reunión,eliminar_recordatorio
+Quitá el recordatorio de llamar a mamá,eliminar_recordatorio
+Eliminá el recordatorio de hacer ejercicio,eliminar_recordatorio
+Borrá el recordatorio de pagar la factura,eliminar_recordatorio
+Quitá el recordatorio para comprar leche,eliminar_recordatorio
+Eliminá el recordatorio del partido del sábado,eliminar_recordatorio
+Borrá el recordatorio de revisar el correo,eliminar_recordatorio
+Quitá el recordatorio de la cita con el dentista,eliminar_recordatorio
+Eliminá el recordatorio para enviar el informe,eliminar_recordatorio
+Borrá el recordatorio de la videollamada con el jefe,eliminar_recordatorio
+Quitá el recordatorio de la reunión programada,eliminar_recordatorio
+Eliminá el recordatorio para estudiar para el examen,eliminar_recordatorio
+Borrá el recordatorio de recoger el auto,eliminar_recordatorio
+Quitá el recordatorio para llamar a la abuela,eliminar_recordatorio
