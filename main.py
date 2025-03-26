@@ -11,6 +11,23 @@ from datetime import datetime
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipeline
 from dotenv import load_dotenv
 from pymongo import MongoClient
+import pywhatkit
+from tuya_iot import TuyaOpenAPI
+
+# Configuración
+TUYA_ACCESS_ID = os.getenv("Tuya_Access_ID")
+TUYA_ACCESS_SECRET = os.getenv("Tuya_Access_Secret")
+ENDPOINT = "https://openapi.tuyaus.com"  
+TUYA_DEVICE_ID = "eb187ae192a713e4ba3glz"
+
+openapi = TuyaOpenAPI(ENDPOINT, TUYA_ACCESS_ID, TUYA_ACCESS_SECRET)
+
+# Probar conexión
+try:
+    openapi.connect()
+    print("Conexión exitosa con la API de Tuya.")
+except Exception as e:
+    print(f"Error al conectar: {e}")
 
 # Cargar variables de entorno
 load_dotenv()
@@ -83,10 +100,27 @@ def contar_chiste():
 
 
 def buscar_en_youtube(artista):
-    query = artista.replace(" ", "+")
-    url = f"https://www.youtube.com/results?search_query={query}"
-    webbrowser.open(url)
-    return f"Abriendo YouTube y buscando {artista}..."
+    try:
+        pywhatkit.playonyt(artista)
+        return f"Reproduciendo en YouTube Music:"
+    except Exception as e:
+        return f"No pude reproducir {artista}. Error: {e}"
+
+def fecha_actual():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+def controlar_luces(estado):
+    # Comando para controlar las luces
+    commands = [{"code": "switch_led", "value": estado}]
+    # Realiza la solicitud a la API de Tuya
+    response = openapi.post(f"/v1.0/iot-03/devices/{TUYA_DEVICE_ID}/commands", {"commands": commands})
+    
+    # Verifica si la solicitud fue exitosa
+    if response.get("success"):
+        return f"Luces {'encendidas' if estado else 'apagadas'}."
+    else:
+        return f"Hubo un problema al controlar las luces: {response.get('msg', 'Sin mensaje de error específico')}"
+
 
 
 def procesar_comando(comando):
@@ -111,10 +145,18 @@ def procesar_comando(comando):
         return "Aquí tienes un chiste: " + contar_chiste()
     elif intencion == "hora":
         return f"La hora actual es {datetime.now().strftime('%H:%M')}"
-    elif intencion == "youtube":
-        return buscar_en_youtube(comando)
-    else:
-        return "No estoy seguro de cómo responder a eso."
+    elif intencion == "fecha":
+        return f"Hoy es {datetime.now().strftime('%d de %B de %Y')}"
+    if intencion == "youtube":
+        return buscar_en_youtube(comando.replace("youtube", "").strip())
+    # Controlar luces
+    if "encender luces" in comando.lower():
+        return controlar_luces(True)
+    elif "apagar luces" in comando.lower():
+        return controlar_luces(False)
+    
+    # Responder para otras intenciones
+    return "No estoy seguro de cómo responder a eso."
 
 
 def asistente_virtual():
