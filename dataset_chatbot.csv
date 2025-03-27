@@ -187,3 +187,12 @@ Quitá el recordatorio de la reunión programada,eliminar_recordatorio
 Eliminá el recordatorio para estudiar para el examen,eliminar_recordatorio
 Borrá el recordatorio de recoger el auto,eliminar_recordatorio
 Quitá el recordatorio para llamar a la abuela,eliminar_recordatorio
+encendé las luces,encender_luces
+prende la luz,encender_luces
+apaga la luz,apagar_luces
+baja el brillo,ajustar_brillo
+sube el brillo,ajustar_brillo
+pone las luces en azul,cambiar_color
+cambia el color de la luz a rojo,cambiar_color
+quiero luces verdes,cambiar_color
+pone luz blanca,cambiar_color

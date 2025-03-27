@@ -1,8 +1,6 @@
 import os
 import requests
 import time
-import torch
-import webbrowser
 import speech_recognition as sr
 import pyttsx3
 import numpy as np
@@ -12,27 +10,25 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, pipe
 from dotenv import load_dotenv
 from pymongo import MongoClient
 import pywhatkit
-from tuya_iot import TuyaOpenAPI
+import tinytuya 
 
-# Configuración
-TUYA_ACCESS_ID = os.getenv("Tuya_Access_ID")
-TUYA_ACCESS_SECRET = os.getenv("Tuya_Access_Secret")
-ENDPOINT = "https://openapi.tuyaus.com"  
-TUYA_DEVICE_ID = "eb187ae192a713e4ba3glz"
-
-openapi = TuyaOpenAPI(ENDPOINT, TUYA_ACCESS_ID, TUYA_ACCESS_SECRET)
-
-# Probar conexión
-try:
-    openapi.connect()
-    print("Conexión exitosa con la API de Tuya.")
-except Exception as e:
-    print(f"Error al conectar: {e}")
 
 # Cargar variables de entorno
 load_dotenv()
 OPENWEATHER_API = os.getenv("OpenWeather_API")
 MongoDB_URI = os.getenv("MongoDB_URI")
+
+# Configuración de tinytuya
+DEVICE_ID = os.getenv("DEVICE_ID")  # ID del dispositivo
+IP = os.getenv("IP")  # IP 
+LOCAL_KEY = os.getenv("LOCAL_KEY")  # Clave secreta del dispositivo
+VERSION = 3.3  # Versión del protocolo
+
+device = tinytuya.BulbDevice(DEVICE_ID, IP, LOCAL_KEY)
+device.set_version(VERSION)
+
+
+
 
 # MongoDB variables
 client = MongoClient(MongoDB_URI) 
@@ -109,17 +105,19 @@ def buscar_en_youtube(artista):
 def fecha_actual():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-def controlar_luces(estado):
-    # Comando para controlar las luces
-    commands = [{"code": "switch_led", "value": estado}]
-    # Realiza la solicitud a la API de Tuya
-    response = openapi.post(f"/v1.0/iot-03/devices/{TUYA_DEVICE_ID}/commands", {"commands": commands})
-    
-    # Verifica si la solicitud fue exitosa
-    if response.get("success"):
-        return f"Luces {'encendidas' if estado else 'apagadas'}."
-    else:
-        return f"Hubo un problema al controlar las luces: {response.get('msg', 'Sin mensaje de error específico')}"
+def controlar_luces(estado=None, brillo=None, color=None):
+    try:
+        if estado is not None:
+            device.set_status(estado, '20')
+            return f"Luces {'encendidas' if estado else 'apagadas'}."
+        if brillo is not None:
+            device.set_status(brillo, '22')
+            return f"Brillo ajustado a {brillo}."
+        if color is not None:
+            device.set_colour(color)
+            return f"Color cambiado a {color}."
+    except Exception as e:
+        return f"Error al controlar las luces: {e}"
 
 
 
@@ -150,10 +148,20 @@ def procesar_comando(comando):
     if intencion == "youtube":
         return buscar_en_youtube(comando.replace("youtube", "").strip())
     # Controlar luces
-    if "encender luces" in comando.lower():
-        return controlar_luces(True)
-    elif "apagar luces" in comando.lower():
-        return controlar_luces(False)
+    if intencion == "encender_luces":
+        return controlar_luces(estado=True)
+    elif intencion == "apagar_luces":
+        return controlar_luces(estado=False)
+    elif intencion == "ajustar_brillo":
+        if "subir" in comando.lower():
+            return controlar_luces(brillo=100)
+        elif "bajar" in comando.lower():
+            return controlar_luces(brillo=10)
+    elif intencion == "cambiar_color":
+        colores = {"rojo": "ff0000", "azul": "0000ff", "verde": "00ff00", "amarillo": "ffff00", "blanco": "ffffff"}
+        for color, hex_code in colores.items():
+            if color in comando.lower():
+                return controlar_luces(color=hex_code)
     
     # Responder para otras intenciones
     return "No estoy seguro de cómo responder a eso."
