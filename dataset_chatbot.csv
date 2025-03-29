@@ -1,198 +1,451 @@
 text,category
-Abrí YouTube,youtube
-Quiero ver videos en YouTube,youtube
-Poné un video de música,youtube
-Abrí la aplicación de YouTube,youtube
-Quiero ver algo en YouTube,youtube
-Buscá en Google,google
-Necesito encontrar algo en Google,google
-Abrí Google Chrome,chrome
-¿Qué temperatura hace hoy?,clima
-¿Cómo está el clima?,clima
-Dame el pronóstico del clima,clima
-Contame un chiste,chiste
-Decime algo gracioso,chiste
-Haceme reír,chiste
-¿Qué hora es?,hora
-Decime la hora actual,hora
-¿Qué día es hoy?,fecha
-Dame la fecha,fecha
-¿Quién sos?,nombre
-¿Cómo te llamás?,nombre
-Dame las noticias,noticias
-¿Qué está pasando en el mundo?,noticias
-¿Cuáles son las últimas noticias?,noticias
-Recordame esto,recordatorio
-Poné un recordatorio,recordatorio
-Agendame un evento,recordatorio
-¿Qué es inteligencia artificial?,info_general
-¿Cómo funciona el aprendizaje automático?,info_general
-¿Quién descubrió América?,info_general
-¿Qué pasó en la Segunda Guerra Mundial?,info_general
-Encendé la luz,domotica
-Apagá la luz,domotica
-Subí el volumen,volumen
-Bajá el volumen,volumen
-Abrí Spotify,spotify
-Poné música en Spotify,spotify
-Reproducí mi playlist favorita,spotify
-Abrí Netflix,netflix
-Quiero ver una película en Netflix,netflix
-Poné una serie en Netflix,netflix
-Abrí Amazon Prime Video,amazon_prime
-Encendé la televisión,domotica
-Apagá la televisión,domotica
-Subí la temperatura,domotica
-Bajá la temperatura,domotica
-¿Cómo estás?,social
-Contame algo interesante,social
-Creá una nota,productividad
-Añadí esto a mi lista de tareas,productividad
-Reproducime un video de recetas en YouTube,youtube
-Buscá tutoriales de maquillaje en YouTube,youtube
-Poné un vlog interesante en YouTube,youtube
-Abrí el canal de tu cantante favorito en YouTube,youtube
-Buscá restaurantes cercanos en Google,google
-Navegá en Google Chrome para encontrar ofertas,chrome
-Buscá en Google restaurantes en la zona,google
-¿Cuál es el pronóstico del tiempo para hoy?,clima
-Decime si va a llover esta tarde,clima
-¿Cómo va a estar el clima esta noche?,clima
-Necesito saber si se arma tormenta en la ciudad,clima
-Sacame una sonrisa con un chiste,chiste
-Mandame un chiste piola,chiste
-Decime la hora exacta por favor,hora
-¿Podés indicarme la hora che?,hora
-¿Qué hora tenés ahora?,hora
-Decime la fecha de hoy por favor,fecha
-¿Qué día figura en el calendario?,fecha
-¿Cuál es tu nombre che?,nombre
-Decime ¿quién sos vos?,nombre
-Dame las noticias más frescas,noticias
-Poneme a par con las novedades locales,noticias
-¿Qué se comenta en política?,noticias
-Infórmame sobre las novedades deportivas,noticias
-Recordame llamar a la abuela mañana,recordatorio
-Programá un recordatorio para comprar entradas,recordatorio
-Agendame una reunión para este viernes,recordatorio
-No me olvides del turno médico,recordatorio
-Explícame qué es la energía nuclear,info_general
-Contame sobre la historia de Argentina,info_general
-¿Cómo funciona el sistema solar?,info_general
-Quiero saber más sobre la economía global,info_general
-Dame datos sobre la exploración espacial,info_general
-¿Quién inventó el automóvil?,info_general
-Encendé las luces de la sala,domotica
-Apagá las luces del comedor,domotica
-Bajá la intensidad de la lámpara,domotica
-Subí el aire acondicionado dos grados,domotica
-Cerrá las cortinas del living,domotica
-Subí el volumen de la tele,volumen
-Bajá el volumen del equipo de música,volumen
-Poneme una rola de rock en Spotify,spotify
-Reproducime los éxitos de los 80 en Spotify,spotify
-Abrí mi lista de reproducción de jazz en Spotify,spotify
-Poné una peli de suspenso en Netflix,netflix
-Buscá una serie de drama en Netflix,netflix
-Reproducime un documental interesante en Netflix,netflix
-Explorá Amazon Prime Video para encontrar una serie nueva,amazon_prime
-Poné una comedia ligera en Amazon Prime Video,amazon_prime
-Decime un tutorial de guitarra en YouTube,youtube
-Abrí el último video de noticias científicas en YouTube,youtube
-Buscame en YouTube videos de recetas de cocina,youtube
-Poné un video de deportes extremos en YouTube,youtube
-Buscá en Google las mejores playas de Argentina,google
-Encontrá en Google direcciones para llegar al centro,google
-Consultá en Google por restaurantes en mi zona,google
-Buscá en Google imágenes de paisajes argentinos,google
-Abrí Chrome en modo incógnito,chrome
-Navegá por Chrome y buscá ofertas online,chrome
-¿Cómo estará el clima mañana en Buenos Aires?,clima
-Informame si habrá tormenta este fin de semana,clima
-Decime si va a hacer frío hoy,clima
-¿Qué pronóstico hay para el viernes?,clima
-Contame un chiste nuevo por favor,chiste
-Mandame un chiste para animarme,chiste
-Haceme reír con una broma fresca,chiste
-Decime si ya pasó el mediodía,hora
-¿Sabés qué hora es ahora mismo?,hora
-Decime la hora porfa,hora
-Recordame la fecha de hoy,fecha
-Indicame la fecha actual,fecha
-¿Qué día de la semana estamos?,fecha
-Decime tu nombre ¿cómo te llamás?,nombre
-Contame ¿quién sos?,nombre
-Informame de lo último en tecnología,noticias
-Dame actualizaciones sobre noticias locales,noticias
-¿Qué novedades hay en el ámbito internacional?,noticias
-Poné en mi pantalla las noticias del día,noticias
-Agendame el pago de la factura para mañana,recordatorio
-Recordame revisar el correo a las 10,recordatorio
-Programá un recordatorio para ir al médico,recordatorio
-Agendame una videollamada con la jefa,recordatorio
-Explícame en qué consiste la fotosíntesis,info_general
-Contame sobre la historia del tango,info_general
-Describime cómo se construyó la Casa Rosada,info_general
-Explicame el funcionamiento de un reactor nuclear,info_general
-Contame la historia del fútbol argentino,info_general
-Decime cómo se originó el imperio incaico,info_general
-Ajustá la iluminación de la sala,domotica
-Apagá las luces del patio,domotica
-Encendé la calefacción del living,domotica
-Poné en modo nocturno las luces de la casa,domotica
-Poné el volumen al 70%,volumen
-Decime el nivel de volumen actual,volumen
-Reproducime una lista de indie en Spotify,spotify
-Buscá en Spotify los últimos éxitos pop,spotify
-Mostrame una comedia en Netflix,netflix
-Abrí el perfil infantil en Netflix,netflix
-Elegí una película de aventura en Amazon Prime Video,amazon_prime
-Abrí YouTube y buscar Bad Bunny,youtube_search
-Busca en YouTube canciones de Shakira,youtube_search
-Quiero ver videos de Queen en YouTube,youtube_search
-Abrí YouTube y buscá a Luis Alberto Spinetta,youtube_search
-Buscá en YouTube videos de Charly García,youtube_search
-Quiero ver en YouTube actuaciones de Fito Páez,youtube_search
-Abrí YouTube y buscá canciones de Los Redondos,youtube_search
-Buscá en YouTube el último video de Babasónicos,youtube_search
-Abrí YouTube y mostrame videos de tango,youtube_search
-Quiero ver videos de rock argentino en YouTube,youtube_search
-Agregá un recordatorio para la reunión mañana a las 3PM,agregar_recordatorio
-Poné un recordatorio para llamar a mamá a las 7PM,agregar_recordatorio
-Recordame hacer ejercicio a las 6am,agregar_recordatorio
-Agendá un recordatorio para la medicación a las 8 de la noche,agregar_recordatorio
-Configurá un recordatorio para pagar la factura el viernes,agregar_recordatorio
-Sumate un recordatorio para comprar leche mañana,agregar_recordatorio
-Agregá un recordatorio para asistir al partido el sábado,agregar_recordatorio
-Recordame revisar el correo a las 10,agregar_recordatorio
-Agendame un recordatorio para la cita del dentista,agregar_recordatorio
-Poné un recordatorio para enviar el informe a las 5PM,agregar_recordatorio
-Agendá un recordatorio para la videollamada con el jefe,agregar_recordatorio
-Recordá que tenés reunión mañana a las 9AM,agregar_recordatorio
-Poné un recordatorio para estudiar para el examen mañana,agregar_recordatorio
-Agregá un recordatorio para recoger el auto el sábado,agregar_recordatorio
-Recordame hacer la llamada a la abuela a las 3PM,agregar_recordatorio
-Eliminá el recordatorio de comprar pan,eliminar_recordatorio
-Borrá el recordatorio para la reunión,eliminar_recordatorio
-Quitá el recordatorio de llamar a mamá,eliminar_recordatorio
-Eliminá el recordatorio de hacer ejercicio,eliminar_recordatorio
-Borrá el recordatorio de pagar la factura,eliminar_recordatorio
-Quitá el recordatorio para comprar leche,eliminar_recordatorio
-Eliminá el recordatorio del partido del sábado,eliminar_recordatorio
-Borrá el recordatorio de revisar el correo,eliminar_recordatorio
-Quitá el recordatorio de la cita con el dentista,eliminar_recordatorio
-Eliminá el recordatorio para enviar el informe,eliminar_recordatorio
-Borrá el recordatorio de la videollamada con el jefe,eliminar_recordatorio
-Quitá el recordatorio de la reunión programada,eliminar_recordatorio
-Eliminá el recordatorio para estudiar para el examen,eliminar_recordatorio
-Borrá el recordatorio de recoger el auto,eliminar_recordatorio
-Quitá el recordatorio para llamar a la abuela,eliminar_recordatorio
-encendé las luces,encender_luces
-prende la luz,encender_luces
-apaga la luz,apagar_luces
-baja el brillo,ajustar_brillo
-sube el brillo,ajustar_brillo
-pone las luces en azul,cambiar_color
-cambia el color de la luz a rojo,cambiar_color
-quiero luces verdes,cambiar_color
-pone luz blanca,cambiar_color
+"Hola cómo estás","charla"
+"Buenas tardes, qué tal tu día","charla"
+"Cómo te va hoy","charla"
+"Cuéntame un chiste","chsite"
+"Necesito reírme, dame un chiste","chsite"
+"Puedes contarme un chiste bueno","chsite"
+"Cómo está el clima hoy","clima"
+"Va a llover esta tarde en Buenos Aires","clima"
+"Qué temperatura hace en la ciudad","clima"
+"A qué hora empieza mi reunión de hoy","horario"
+"Cuál es mi agenda para esta mañana","horario"
+"Muéstrame mi horario del día","horario"
+"Qué fecha es hoy","fecha"
+"Dime la fecha actual, por favor","fecha"
+"Cuál es el día de hoy","fecha"
+"Enciende las luces del salón","luces"
+"Apaga las luces de la cocina","luces"
+"Ajusta la intensidad de las luces del dormitorio","luces"
+"Recuérdame llamar a Juan a las 3 PM","recordatorio"
+"Pónme un recordatorio para comprar leche","recordatorio"
+"Recuerda recordarme mi cita médica mañana","recordatorio"
+"Qué novedades tienes hoy","charla"
+"Cuéntame algo interesante","charla"
+"Cómo te sientes este día","charla"
+"Háblame de tus planes para el fin de semana","charla"
+"Has visto la última película en cartelera","charla"
+"Me gustaría conversar sobre música","charla"
+"Cuál es tu libro favorito","charla"
+"Cuéntame un poco sobre ti","charla"
+"Qué opinas sobre la tecnología actual","charla"
+"Hablemos de deportes, qué equipo sigues","charla"
+"Tienes algún chiste nuevo","chsite"
+"Cuéntame un chiste de animales","chsite"
+"Necesito reírme, qué chiste me cuentas","chsite"
+"Dame un chiste sobre programadores","chsite"
+"Puedes contarme un chiste corto","chsite"
+"Quiero escuchar un chiste gracioso","chsite"
+"Sorpréndeme con tu mejor chiste","chsite"
+"Tienes algún chiste ingenioso","chsite"
+"Cómo está el estado del tiempo en Madrid","clima"
+"Se espera lluvia hoy","clima"
+"Cuál es la previsión del clima para esta semana","clima"
+"Está soleado afuera","clima"
+"Necesito datos del clima para planificar mi día","clima"
+"Habrá tormenta esta noche","clima"
+"Qué condiciones meteorológicas anuncian para mañana","clima"
+"El pronóstico indica frío o calor para hoy","clima"
+"Cuándo es mi próxima reunión","horario"
+"Dime la hora de mi desayuno","horario"
+"A qué hora debo ir a trabajar hoy","horario"
+"Revisa mi agenda para la tarde","horario"
+"Cuándo tengo programada la videollamada","horario"
+"Muéstrame el calendario de hoy","horario"
+"Cuándo empieza mi clase","horario"
+"Necesito confirmar la hora de mi cita médica","horario"
+"Qué día es hoy exactamente","fecha"
+"Indícame la fecha actual","fecha"
+"Quiero saber la fecha de hoy","fecha"
+"Podrías decirme qué fecha es","fecha"
+"Necesito saber el día de la semana","fecha"
+"Cuál es la fecha de mañana","fecha"
+"Consulta la fecha en mi zona horaria, por favor","fecha"
+"Revisa la fecha en el calendario digital","fecha"
+"Enciende las luces del comedor, por favor","luces"
+"Apaga las luces exteriores","luces"
+"Ajusta la luz del salón a modo tenue","luces"
+"Sube la intensidad de las luces de lectura","luces"
+"Recuérdame tomar mi medicación a las 8 AM","recordatorio"
+"Programa un recordatorio para llamar a mamá","recordatorio"
+"Quiero que me recuerdes enviar el correo mañana","recordatorio"
+"Establece un recordatorio para la reunión de jueves","recordatorio"
+"Qué has hecho hoy","charla"
+"Cuéntame algo divertido que te haya pasado recientemente","charla"
+"Qué piensas sobre la inteligencia artificial","charla"
+"Comparte una anécdota interesante","charla"
+"Te gusta la música Qué género prefieres","charla"
+"Cuál fue la mejor parte de tu día","charla"
+"Qué planes tienes para el fin de semana","charla"
+"Háblame sobre tus hobbies","charla"
+"Tienes algún sueño recurrente","charla"
+"Cuál es tu comida favorita","charla"
+"Necesito un chiste, sorpréndeme","chsite"
+"Puedes contarme un chiste sobre robots","chsite"
+"Cuéntame un chiste sobre la escuela","chsite"
+"Me apetece reír, qué chiste tienes","chsite"
+"Cuéntame un chiste clásico","chsite"
+"Algún chiste de programadores","chsite"
+"Comparte un chiste inteligente, por favor","chsite"
+"El clima va a estar despejado hoy","clima"
+"Revisa el pronóstico para este fin de semana","clima"
+"Va a haber algún fenómeno meteorológico interesante hoy","clima"
+"Está nublado en mi ciudad","clima"
+"Quiero saber si habrá sol mañana","clima"
+"Descubre la temperatura actual en mi localidad","clima"
+"Cómo será el clima en las próximas horas","clima"
+"Actualiza el pronóstico del tiempo","clima"
+"Avísame si se acerca una tormenta","clima"
+"Consulta si habrá vientos fuertes hoy","clima"
+"Cuándo es mi próxima reunión","horario"
+"Dime la hora de mi próxima llamada","horario"
+"Cuándo debo salir para llegar a tiempo a mi cita","horario"
+"Activa mi agenda para revisar las reuniones del día","horario"
+"Revisa mis compromisos para esta mañana","horario"
+"Qué tengo programado para la tarde","horario"
+"Hay algún evento importante en mi calendario hoy","horario"
+"Confirma la hora de mi almuerzo","horario"
+"A qué hora empieza el tráfico normalmente en mi zona","horario"
+"Consulta mi horario de clases para el día","horario"
+"Revisa la fecha actual en el calendario","fecha"
+"Cuál es la fecha de hoy","fecha"
+"Puedes indicarme el día de la fecha","fecha"
+"Quiero saber qué mes es","fecha"
+"Actualiza la fecha en mi sistema","fecha"
+"Qué día de la semana es hoy","fecha"
+"Proporcióname la fecha en formato largo","fecha"
+"Revisa la fecha en tu reloj","fecha"
+"Enciende las luces de la sala de estar","luces"
+"Complementa la iluminación del comedor","luces"
+"Apaga todas las luces de la casa","luces"
+"Configura la luz para leer","luces"
+"Regula las luces del pasillo","luces"
+"Ajusta la luz del estudio a nivel medio","luces"
+"Revisa si las luces exteriores están encendidas","luces"
+"Recuérdame tomar un descanso en 30 minutos","recordatorio"
+"Programa un recordatorio para revisar el correo","recordatorio"
+"Establece un aviso para mi reunión de mañana","recordatorio"
+"Recuerda enviarme el informe a las 6 PM","recordatorio"
+"Pon un recordatorio para llamar al proveedor","recordatorio"
+"Agrega un recordatorio para pagar las facturas","recordatorio"
+"Recuérdame confirmar mi reserva para este fin de semana","recordatorio"
+"Establece un recordatorio para la sesión de entrenamiento","recordatorio"
+"Programa un aviso para comprar medicamentos","recordatorio"
+"Activa un recordatorio para regar las plantas","recordatorio"
+"Hola, ¿cómo estás?","charla"
+"Buenas tardes, ¿qué tal tu día?","charla"
+"¿Cómo te va hoy?","charla"
+"Cuéntame algo interesante","charla"
+"Háblame de tus planes para el fin de semana","charla"
+"Has visto la última película en cartelera","charla"
+"Me gustaría conversar sobre música","charla"
+"¿Cuál es tu libro favorito?","charla"
+"Cuéntame un poco sobre ti","charla"
+"¿Qué opinas sobre la tecnología actual?","charla"
+"Hablemos de deportes, ¿qué equipo sigues?","charla"
+"¿Qué has hecho hoy?","charla"
+"Comparte una anécdota interesante","charla"
+"Te gusta la música, ¿qué género prefieres?","charla"
+"¿Cuál fue la mejor parte de tu día?","charla"
+"¿Qué planes tienes para el fin de semana?","charla"
+"Háblame sobre tus hobbies","charla"
+"¿Tienes algún sueño recurrente?","charla"
+"¿Cuál es tu comida favorita?","charla"
+"¿Cómo te sientes hoy?","charla"
+"Cuéntame un chiste","chiste"
+"Necesito reírme, dame un chiste","chiste"
+"Puedes contarme un chiste bueno","chiste"
+"Tienes algún chiste nuevo","chiste"
+"Cuéntame un chiste de animales","chiste"
+"Necesito reírme, ¿qué chiste me cuentas?","chiste"
+"Dame un chiste sobre programadores","chiste"
+"Puedes contarme un chiste corto","chiste"
+"Quiero escuchar un chiste gracioso","chiste"
+"Sorpréndeme con tu mejor chiste","chiste"
+"Tienes algún chiste ingenioso","chiste"
+"Necesito un chiste, sorpréndeme","chiste"
+"Puedes contarme un chiste sobre robots","chiste"
+"Cuéntame un chiste sobre la escuela","chiste"
+"Me apetece reír, ¿qué chiste tienes?","chiste"
+"Cuéntame un chiste clásico","chiste"
+"Algún chiste de programadores","chiste"
+"Comparte un chiste inteligente, por favor","chiste"
+"Dime un chiste de matemáticas","chiste"
+"¿Sabes algún chiste de fútbol?","chiste"
+"Cómo está el clima hoy","clima"
+"Va a llover esta tarde en Buenos Aires","clima"
+"¿Qué temperatura hace en la ciudad?","clima"
+"Cómo está el estado del tiempo en Madrid","clima"
+"Se espera lluvia hoy","clima"
+"¿Cuál es la previsión del clima para esta semana?","clima"
+"¿Está soleado afuera?","clima"
+"Necesito datos del clima para planificar mi día","clima"
+"¿Habrá tormenta esta noche?","clima"
+"¿Qué condiciones meteorológicas anuncian para mañana?","clima"
+"¿El pronóstico indica frío o calor para hoy?","clima"
+"El clima va a estar despejado hoy","clima"
+"Revisa el pronóstico para este fin de semana","clima"
+"Va a haber algún fenómeno meteorológico interesante hoy","clima"
+"¿Está nublado en mi ciudad?","clima"
+"Quiero saber si habrá sol mañana","clima"
+"Descubre la temperatura actual en mi localidad","clima"
+"¿Cómo será el clima en las próximas horas?","clima"
+"Actualiza el pronóstico del tiempo","clima"
+"Avísame si se acerca una tormenta","clima"
+"A qué hora empieza mi reunión de hoy","horario"
+"¿Cuál es mi agenda para esta mañana?","horario"
+"Muéstrame mi horario del día","horario"
+"¿Cuándo es mi próxima reunión?","horario"
+"Dime la hora de mi próxima llamada","horario"
+"¿Cuándo debo salir para llegar a tiempo a mi cita?","horario"
+"Activa mi agenda para revisar las reuniones del día","horario"
+"Revisa mis compromisos para esta mañana","horario"
+"¿Qué tengo programado para la tarde?","horario"
+"¿Hay algún evento importante en mi calendario hoy?","horario"
+"Confirma la hora de mi almuerzo","horario"
+"¿A qué hora empieza el tráfico normalmente en mi zona?","horario"
+"Consulta mi horario de clases para el día","horario"
+"Revisa el calendario de reuniones","horario"
+"Muéstrame mis reuniones de la semana","horario"
+"¿Tengo alguna videollamada pendiente?","horario"
+"Quiero saber mis pendientes de la tarde","horario"
+"¿Cuándo es mi próxima reunión importante?","horario"
+"Consulta mis eventos del día","horario"
+"Revisa mi agenda para la noche","horario"
+"Qué fecha es hoy","fecha"
+"Dime la fecha actual, por favor","fecha"
+"¿Cuál es el día de hoy?","fecha"
+"¿Qué día es hoy exactamente?","fecha"
+"Indícame la fecha actual","fecha"
+"Quiero saber la fecha de hoy","fecha"
+"Podrías decirme qué fecha es","fecha"
+"Necesito saber el día de la semana","fecha"
+"¿Cuál es la fecha de mañana?","fecha"
+"Consulta la fecha en mi zona horaria, por favor","fecha"
+"Revisa la fecha en el calendario digital","fecha"
+"¿Qué mes es?","fecha"
+"¿Qué año estamos?","fecha"
+"Quiero conocer la fecha exacta","fecha"
+"Consulta la fecha en tu sistema","fecha"
+"Muéstrame el día de hoy","fecha"
+"Verifica la fecha actual","fecha"
+"Proporcióname la fecha en formato largo","fecha"
+"Revisa la fecha en tu reloj","fecha"
+"Indícame la fecha de la semana próxima","fecha"
+"Enciende las luces del salón","luces"
+"Apaga las luces de la cocina","luces"
+"Ajusta la intensidad de las luces del dormitorio","luces"
+"Enciende las luces del comedor, por favor","luces"
+"Apaga las luces exteriores","luces"
+"Ajusta la luz del salón a modo tenue","luces"
+"Sube la intensidad de las luces de lectura","luces"
+"Enciende las luces de la sala de estar","luces"
+"Complementa la iluminación del comedor","luces"
+"Apaga todas las luces de la casa","luces"
+"Pónme un recordatorio para comprar leche","recordatorio"
+"Recuerda recordarme mi cita médica mañana","recordatorio"
+"Recuérdame tomar mi medicación a las 8 AM","recordatorio"
+"Programa un recordatorio para llamar a mamá","recordatorio"
+"Quiero que me recuerdes enviar el correo mañana","recordatorio"
+"Pon un recordatorio para llamar al proveedor","recordatorio"
+"Agrega un recordatorio para pagar las facturas","recordatorio"
+"Hola, ¿qué tal?","charla"
+"¿Cómo va todo?","charla"
+"Cuéntame algo interesante","charla"
+"¿Qué hiciste hoy?","charla"
+"¿Cómo te sientes hoy?","charla"
+"Me gusta hablar contigo","charla"
+"¿Qué opinas del clima?","charla"
+"¿Tienes alguna historia interesante?","charla"
+"¿Cuál es tu color favorito?","charla"
+"Hablemos de películas","charla"
+"Recomiéndame una serie","charla"
+"¿Qué sabes sobre tecnología?","charla"
+"Quiero aprender algo nuevo","charla"
+"Dime una curiosidad","charla"
+"¿Cómo puedo mejorar mi día?","charla"
+"Hablemos sobre comida","charla"
+"¿Cuál es tu deporte favorito?","charla"
+"Recomiéndame un libro","charla"
+"Quiero escuchar música","charla"
+"¿Qué planes tienes para hoy?","charla"
+"Cuéntame otro chiste","chiste"
+"Dame un chiste corto","chiste"
+"¿Sabes algún chiste de médicos?","chiste"
+"Necesito reírme, dame un chiste","chiste"
+"Dime un chiste sobre animales","chiste"
+"Cuéntame un chiste malo", "chiste"
+"¿Sabes algún chiste de fútbol?","chiste"
+"Cuéntame un chiste de matemáticas","chiste"
+"Un chiste sobre programadores, por favor","chiste"
+"Dame un chiste ingenioso","chiste"
+"Sorpréndeme con tu mejor chiste","chiste"
+"¿Qué chiste tienes sobre la escuela?","chiste"
+"Dime un chiste clásico","chiste"
+"Comparte un chiste gracioso","chiste"
+"Quiero un chiste sobre robots","chiste"
+"Cuéntame algo divertido","chiste"
+"¿Cuál es tu mejor chiste?","chiste"
+"Dime un chiste sobre matemáticos","chiste"
+"¿Sabes un chiste de oficina?","chiste"
+"Dame un chiste nuevo","chiste"
+"¿Cuál es la temperatura actual?","clima"
+"¿Cómo está el tiempo hoy?","clima"
+"¿Se espera lluvia esta tarde?","clima"
+"¿Hace frío en la ciudad?","clima"
+"¿Cuánto calor hace ahora?","clima"
+"¿Mañana va a llover?","clima"
+"Dime si hace viento hoy","clima"
+"¿Cómo estará el clima este fin de semana?","clima"
+"Revisa el pronóstico para esta noche","clima"
+"¿Estará soleado mañana?","clima"
+"¿Qué dice el pronóstico del tiempo?","clima"
+"Necesito saber si hará frío","clima"
+"¿Hay alerta de tormenta?","clima"
+"Quiero saber el clima de la próxima semana","clima"
+"¿Va a nevar hoy?","clima"
+"Revisa la humedad del ambiente","clima"
+"Dime si hay niebla ahora", "clima"
+"¿Cuál es la probabilidad de lluvia?","clima"
+"¿Estará despejado en la tarde?","clima"
+"¿Qué temperatura hará por la noche?","clima"
+"¿A qué hora es mi reunión?","horario"
+"Dime la hora de mi cita","horario"
+"¿Cuándo es mi próxima llamada?","horario"
+"Muéstrame mi agenda de hoy","horario"
+"¿Tengo reuniones esta tarde?","horario"
+"¿Cuándo es mi próxima videollamada?","horario"
+"Dime a qué hora empieza mi clase","horario"
+"Revisa mi calendario de eventos","horario"
+"¿Tengo una alarma programada?","horario"
+"¿Cuánto falta para mi cita?","horario"
+"Consulta mi horario del día","horario"
+"¿Cuándo tengo que salir para mi reunión?","horario"
+"¿Qué eventos tengo en la mañana?","horario"
+"Revisa mi agenda de esta semana","horario"
+"Muéstrame los recordatorios del día","horario"
+"¿A qué hora tengo que despertarme?","horario"
+"Recuérdame mi reunión importante","horario"
+"Consulta mis eventos programados","horario"
+"¿Tengo alguna alerta programada?","horario"
+"¿Cuánto falta para mi próximo evento?","horario"
+"¿Qué día es hoy?","fecha"
+"Dime la fecha exacta","fecha"
+"¿Cuál es la fecha de mañana?","fecha"
+"¿Qué mes estamos?","fecha"
+"Quiero saber la fecha de hoy","fecha"
+"Consulta la fecha en el calendario","fecha"
+"Revisa la fecha de la próxima semana","fecha"
+"Dime la fecha en formato largo","fecha"
+"Necesito saber qué día es","fecha"
+"¿Qué día de la semana es?","fecha"
+"Consulta el calendario digital","fecha"
+"Muéstrame la fecha actual","fecha"
+"¿En qué mes estamos?","fecha"
+"Indícame el día de la semana","fecha"
+"Verifica la fecha en tu sistema","fecha"
+"Dime el año en el que estamos","fecha"
+"Consulta la fecha en mi zona horaria","fecha"
+Revisa la fecha de mi último evento,fecha
+¿Qué día cae el fin de semana?,fecha
+Dime si hoy es festivo,fecha
+Enciende la luz,luces
+Apaga la luz,luces
+Pon la luz en color azul,luces
+Pon la luz en color rojo,luces
+Quiero luz blanca,luces
+Configura la luz en modo noche,luces
+Aumenta la intensidad de la luz,luces
+Reduce el brillo de la luz,luces
+Apaga la luz de la sala,luces
+Enciende la luz de la cocina,luces
+Prende la luz de la habitación,luces
+Cambia la luz a color verde,luces
+Quiero luz cálida,luces
+Quiero luz fría,luces
+Ajusta la luz a nivel medio,luces
+Ajusta la luz a nivel bajo,luces
+Apaga la luz principal,luces
+Enciende la lámpara de noche,luces
+Quiero luz tenue,luces
+Pon la luz en modo relajante,luces
+Recuérdame llamar a mi madre,recordatorio
+Pon un recordatorio para ir al gimnasio,recordatorio
+Recuérdame comprar pan por la tarde,recordatorio
+Necesito un recordatorio para pagar el alquiler,recordatorio
+Quiero que me avises cuando sea la hora de dormir,recordatorio
+Recuérdame tomar agua cada dos horas,recordatorio
+Pon un recordatorio para revisar mis correos,recordatorio
+Quiero que me recuerdes enviar un mensaje,recordatorio
+Recuérdame tomar mis medicinas a las 8 PM,recordatorio
+Pon una alerta para mi reunión de mañana,recordatorio
+Avisa cuando sea la hora de la cena,recordatorio
+Recuérdame regar las plantas el domingo,recordatorio
+Pon un recordatorio para sacar la basura,recordatorio
+Avísame cuando sean las 6 AM,recordatorio
+Recuérdame estudiar para el examen,recordatorio
+Quiero que me recuerdes hacer ejercicio,recordatorio
+Avisa cuando sea la hora del almuerzo,recordatorio
+Pon una alerta para revisar mis tareas,recordatorio
+Recuérdame apagar la estufa en 10 minutos,recordatorio
+Quiero un recordatorio para el cumpleaños de mi amigo,recordatorio
+"Hola, ¿cómo estás?",charla
+"Buenas, ¿qué me cuentas?",charla
+¿Cómo ha sido tu día?,charla
+¿Qué has aprendido hoy?,charla
+Dame un dato curioso,charla
+Cuéntame una historia,charla
+¿Cuál es tu tema favorito?,charla
+¿Tienes algo interesante para decir?,charla
+Recomiéndame una película,charla
+¿Qué opinas sobre los viajes?,charla
+Hablemos sobre arte,charla
+¿Cuál es la noticia del día?,charla
+Enséñame una palabra nueva,charla
+¿Cómo puedo ser más productivo?,charla
+Quiero hablar sobre tecnología,charla
+¿Qué sabes sobre filosofía?,charla
+Recomiéndame una canción,charla
+Dime algo positivo,charla
+Hablemos de ciencia,charla
+¿Qué es lo más interesante del universo?,charla
+Dime un chiste gracioso,chiste
+¿Tienes un chiste de animales?,chiste
+Cuéntame un chiste nuevo,chiste
+Dime un chiste de papá,chiste
+¿Cuál es el chiste más divertido que conoces?,chiste
+Quiero un chiste sobre comida,chiste
+Cuéntame un chiste de matemáticas,chiste
+Dime un chiste sobre fútbol,chiste
+"Necesito reírme, dime algo gracioso",chiste
+Dame un chiste corto y bueno,chiste
+¿Sabes algún chiste sobre doctores?,chiste
+Cuéntame un chiste absurdo,chiste
+Dame un chiste sobre el trabajo,chiste
+Quiero un chiste geek,chiste
+Dime un chiste de tecnología,chiste
+Dime algo divertido sobre inteligencia artificial,chiste
+Cuéntame un chiste de amigos,chiste
+Necesito un chiste sobre la escuela,chiste
+Dime el chiste más malo que conozcas,chiste
+"Un chiste de robots, por favor",chiste
+"Apagá la luz, porfa.","luces"
+"Dale, apagá la luz ahora mismo.","luces"
+"Che, bajá la luz de la sala.","luces"
+"Por favor, apagá la luz del cuarto.","luces"
+"Apagá la luz, que no hace falta dejarla prendida.","luces"
+"Haceme el favor y apagá la luz.","luces"
+"Apagá la luz, que ya es hora de descansar.","luces"
+"Podés apagar la luz, por favor?","luces"
+"Apagá la luz, que ya está oscureciendo.","luces"
+"Dale para abajo, apagá la luz.","luces"
+"Poné la luz en rojo, porfa.","luces"
+"Cambiá a azul la iluminación de la sala.","luces"
+"Hacé la luz de color verde, dale.","luces"
+"Dejá la luz en amarillo para crear ambiente.","luces"
+"Poné la luz en violeta, por favor.","luces"
+"Cambiá el color de la luz a naranja.","luces"
+"Dale, que la luz se ponga rosa.","luces"
+"Ajustá el tono de la luz a celeste.","luces"
+"Mandá la luz a un vibrante color fucsia.","luces"
+"Ponele a la luz un toque de color turquesa.","luces"
